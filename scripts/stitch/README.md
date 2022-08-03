@@ -1,8 +1,8 @@
-# Importing dbSNP data from NCBI
+# Importing drug data from STITCH
 
 ## Table of Contents
 
-- [Importing Medical Subject Headings (MeSH) data from NCBI](#importing-medical-subject-headings-mesh-data-from-ncbi)
+- [Importing data from STITCH](#importing-data-from-stitch)
   - [About the Dataset](#about-the-dataset)
     - [Download Data](#download-data)
     - [Overview](#overview)
@@ -12,9 +12,6 @@
     - [Artifacts](#artifacts)
       - [Scripts](#scripts)
       - [Files](#files)
-     - [Schema Artifacts](#schema)
-       - [Scripts](#scripts)
-       - [Output Schema MCF Files](#output-schema-mcf-files)
   - [Examples](#examples)
     - [Run Tests](#run-testers)
     - [Import](#import)
@@ -101,4 +98,3 @@ python compile_stitch.py
   scratch/sources_sorted.tsv 
   scratch/inchikeys_sorted.tsv
   scratch/chemicals_no_header.tsv
-```
